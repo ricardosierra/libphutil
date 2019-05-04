@@ -208,12 +208,14 @@ final class PhutilBootloader {
 
   public function loadLibrary($path) {
     $root = null;
+    if ($path == '//src'){
+        $path = 'playground/src';
+    }
     if (!empty($_SERVER['PHUTIL_LIBRARY_ROOT'])) {
       if ($path[0] != '/') {
         $root = $_SERVER['PHUTIL_LIBRARY_ROOT'];
       }
-    }
-
+    }   
     $this->executeInclude($root.$path.'/__phutil_library_init__.php');
   }
 

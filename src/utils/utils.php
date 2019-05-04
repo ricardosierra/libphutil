@@ -1,4 +1,5 @@
 <?php
+// namespace Libphutil\Utils;
 
 /**
  * Identity function, returns its argument unmodified.
@@ -790,9 +791,9 @@ function newv($class_name, array $argv) {
  * @param    array Array to retrieve the first element from.
  * @return   wild  The first value of the array.
  */
-function head(array $arr) {
-  return reset($arr);
-}
+// function head(array $arr) {
+//   return reset($arr);
+// }
 
 /**
  * Returns the last element of an array. This is exactly like `end()` except
@@ -801,10 +802,10 @@ function head(array $arr) {
  *
  * @param    array Array to retrieve the last element from.
  * @return   wild  The last value of the array.
- */
-function last(array $arr) {
-  return end($arr);
-}
+//  */
+// function last(array $arr) {
+//   return end($arr);
+// }
 
 /**
  * Returns the first key of an array.
