@@ -43,9 +43,9 @@ Enables running PHP scripts as stable, long-lived daemons.
 A handful of solid utility functions.
 
 `libphutil` is used by
- - [Phabricator](https://secure.phabricator.com/diffusion/P/)
- - [Arcanist](https://secure.phabricator.com/diffusion/ARC/)
- - [Diviner](https://secure.phabricator.com/book/phabricator/article/diviner/)
+ - [Phabricator]('.PhabricatorEnv::getEnvConfig('phabricator.base-uri').'/diffusion/P/)
+ - [Arcanist]('.PhabricatorEnv::getEnvConfig('phabricator.base-uri').'/diffusion/ARC/)
+ - [Diviner]('.PhabricatorEnv::getEnvConfig('phabricator.base-uri').'/book/phabricator/article/diviner/)
 
 
 ----------
@@ -53,12 +53,12 @@ A handful of solid utility functions.
 
 **BUG REPORTS**
 
-Please update `libphutil` to **HEAD** before filing bug reports. Follow our [bug reporting guide](https://secure.phabricator.com/book/phabcontrib/article/bug_reports/) for complete instructions.
+Please update `libphutil` to **HEAD** before filing bug reports. Follow our [bug reporting guide]('.PhabricatorEnv::getEnvConfig('phabricator.base-uri').'/book/phabcontrib/article/bug_reports/) for complete instructions.
 
 
 **PULL REQUESTS**
 
-We do not accept pull requests through GitHub. If you would like to contribute code, please read our [Contributor's Guide](https://secure.phabricator.com/book/phabcontrib/article/contributing_code/) for more information.
+We do not accept pull requests through GitHub. If you would like to contribute code, please read our [Contributor's Guide]('.PhabricatorEnv::getEnvConfig('phabricator.base-uri').'/book/phabcontrib/article/contributing_code/) for more information.
 
 **LICENSE**
 

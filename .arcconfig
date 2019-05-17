@@ -1,4 +1,4 @@
 {
-  "phabricator.uri": "https://secure.phabricator.com/",
+  "phabricator.uri": "'.PhabricatorEnv::getEnvConfig('phabricator.base-uri').'/",
   "history.immutable": false
 }
